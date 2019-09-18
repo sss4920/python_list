@@ -1,0 +1,5 @@
+won = int(input("원금:"))
+per = float(input("투자이율:"))
+date = int(input("투자기간:"))
+wonri = won * ((1+per)**date)
+print("원리금은 ",wonri)
