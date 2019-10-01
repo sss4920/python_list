@@ -13,4 +13,7 @@ for name in ["수현","승헌","현호","광현"]:
 `end의 default="\n`이다. 그러므로 `end=" "`라고 하면 띄어쓰기로 나옴
 ### range()함수
 range함수는 (start,stop,step)으로 이루어져 있고 start와 step은 생략이 가능하다
-step이 -가 되려면 start가 stop보다 커야되고 
+step이 -가 되려면 start가 stop보다 커야됨
+
+### split()함수  
+split 함수는 인자를 받아서 그것을 기준으로 쪼개서 리스트로 만들어 반환합니다.
